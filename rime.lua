@@ -56,7 +56,7 @@ en_spacer = require("en_spacer")
 
 -- 九宫格，将输入框的数字转为对应的拼音或英文，iRime 用，Hamster 不需要。
 -- 在 engine/filters 增加 - lua_filter@t9_preedit
-t9_preedit = require("t9_preedit")
+-- t9_preedit = require("t9_preedit")
 
 -- 根据是否在用户词典，在 comment 上加上一个星号 *
 -- 在 engine/filters 增加 - lua_filter@is_in_user_dict
